@@ -1,0 +1,30 @@
+.services-main {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+   /* flex-wrap: wrap; */
+  padding: 50px 0px;
+  gap: 10%;
+}
+
+.services-content {
+  /* display: flex; */
+ 
+  .services-header {
+    color: #fcf43d;
+  }
+  h2{
+    font-size: 36px;
+  }
+  button{
+    margin-top: 20px;
+    border: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+}
+
+
+
