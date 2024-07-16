@@ -15,7 +15,7 @@ const Services = () => {
         <button>See All</button>
       </div>
       <div className="services-hero">
-        <img src={services} alt="" width={480}/>
+        <img src={services} alt=""/>
       </div>
     </div>
   );

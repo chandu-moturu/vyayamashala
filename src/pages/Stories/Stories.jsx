@@ -30,7 +30,7 @@ const Stories = () => {
             surrounding itself plays vital role to motivate and go beyond your
             limitation.
           </p>
-            <img src={rightquote} alt="" style={{width:'24px',marginLeft:'400px'}} />
+            <img src={rightquote} alt="" style={{width:'24px', paddingLeft:'90%'}} />
           <img src={star5} alt="" />
           <p>Jhon Doe, Student</p>
         </div>

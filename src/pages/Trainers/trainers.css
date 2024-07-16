@@ -1,7 +1,4 @@
 .trainers-main {
-  /* border: 1px solid white; */
-  /* width: 80dvw; */
-  /* margin: 0px 150px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -15,4 +12,42 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  .card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .trainers-main{
+    padding: 20px;
+  }
+  .trainers-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .trainers-main{
+    padding: 20px;
+  }
+  .trainers-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .trainers-main{
+    padding: 20px;
+  }
+  .trainers-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 }

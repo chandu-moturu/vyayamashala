@@ -82,8 +82,16 @@
     border-radius: 40px;
 }
 
-@media screen and (max-width:400px) {
-  .nav-items-main{
-    display:none;
+@media screen and (max-width: 576px) {
+  .master-nav{
+    padding: 0px 20px;
   }
+  
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
 }

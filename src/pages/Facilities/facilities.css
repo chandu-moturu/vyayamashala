@@ -1,5 +1,5 @@
 .facilities-main {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: flex;
   text-align: center;
   justify-content: center;
@@ -40,4 +40,31 @@
   p {
     color: #c4c4c4;
   }
+}
+
+
+@media screen and (max-width: 576px) {
+  .facilities-main{
+    margin: 0;
+    padding: 20px;
+  }
+  .facilities-cards {
+  
+    .card{
+      padding: 0;
+      .facilities-cards-img img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+    
+  }
+  
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
 }

@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+ 
   
 }
 .contact-form {
@@ -43,5 +44,57 @@
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .contact-content{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .contact-content{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .contact-content{
+      display: flex;
+      justify-content: space-between;
+      img{
+        width: 55%;
+        height: auto
+      };
+  }
+  .contact-form{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   }
 }
